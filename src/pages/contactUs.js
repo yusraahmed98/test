@@ -51,8 +51,8 @@ state={
   render() {
     return (
       <>
-      <nav class="navbar bg-dark" data-bs-theme="dark">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav style={{backgroundColor:'black'}} >
+          <nav class="navbar navbar-expand-lg bg-body-tertiary"  style={{ left:'55%' }}>
             <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
               <button
@@ -83,7 +83,7 @@ state={
                   >
                     Portfolio
                   </a>
-                  <a class="nav-link" href="#" style={{ color: "white" }}>
+                  <a class="nav-link" href="/ourpeople" style={{ color: "white" }}>
                     Our People
                   </a>
                   <a class="nav-link" href="/careers" style={{ color: "white" }}>
@@ -92,12 +92,15 @@ state={
                   <a class="nav-link" href="/contactUs" style={{ color: "white" }}>
                     Contact us
                   </a>
+                  <a class="nav-link" href="/AboutUs" style={{ color: "white" }}>
+                    About us
+                  </a>
                 </div>
               </div>
             </div>
           </nav>
         </nav>
-        <header class="page-header">
+        <header >
         <div class="inner">
   	<div class="container">
   		<h1>CONTACT US</h1>

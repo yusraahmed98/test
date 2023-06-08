@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -6,7 +7,9 @@ import Blog from './blog';
 import Portfolio from './pages/portfolio.js';
 import ContactUs from './pages/contactUs';
 import Careers from './pages/careers';
+import OurPeople from './pages/OurPeople';
 import Blog_single from './pages/blog-single';
+import AboutUs from './pages/aboutUs';
 
 function App() {
   var domain="https://neon-9o9l.onrender.com";
@@ -16,8 +19,10 @@ function App() {
 
         <Route path="/" element={<Home />} />
         <Route path="portfolio" element={<Portfolio />} />
-        <Route path="contactUs" element={<ContactUs />} />
+        <Route path="https://neon-9o9l.onrender.com/contactUs/add" element={<ContactUs />} />
         <Route path="careers" element={<Careers />} />
+        <Route path="ourpeople" element={<OurPeople />} />
+        <Route path="aboutUs" element={<AboutUs/>} />
     </Routes>
   </BrowserRouter>
 

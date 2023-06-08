@@ -1405,7 +1405,7 @@ textarea {
   content: "";
   width: 100%;
   height: 100px;
-  background: #48a6dc;
+  background: #000000;
   position: absolute;
   left: 0;
   top: 0;
@@ -2214,10 +2214,19 @@ textarea {
 /* CLIENTS */
 .clients {
   width: 100%;
+  height: 80%;
   display: flex;
   flex-wrap: wrap;
   padding: 150px 0;
-  background: #fff;
+  background: #ffffff;
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.3);
+}
+.clientss {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 150px 0;
+  background: #000000ca;
   box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.3);
 }
 .clients ul {
@@ -2563,6 +2572,15 @@ textarea {
 
   .intro {
     padding: 80px 0;
+  }
+  .introz {
+       width: 10%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 100px 0;
+      color: #000000;
+      background: #000000;
+    
   }
 
   .clients {

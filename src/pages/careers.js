@@ -4,8 +4,8 @@ class Careers extends React.Component {
   render() {
     return (
       <>
-      <nav class="navbar bg-dark" data-bs-theme="dark">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav style={{backgroundColor:'black'}} >
+          <nav class="navbar navbar-expand-lg bg-body-tertiary" >
             <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
               <button
@@ -36,7 +36,7 @@ class Careers extends React.Component {
                   >
                     Portfolio
                   </a>
-                  <a class="nav-link" href="#" style={{ color: "white" }}>
+                  <a class="nav-link" href="/ourpeople" style={{ color: "white" }}>
                     Our People
                   </a>
                   <a class="nav-link" href="/careers" style={{ color: "white" }}>
@@ -45,20 +45,42 @@ class Careers extends React.Component {
                   <a class="nav-link" href="/contactUs" style={{ color: "white" }}>
                     Contact us
                   </a>
+                   <a class="nav-link" href="/AboutUs" style={{ color: "white" }}>
+                    About us
+                  </a>
+                  
                 </div>
               </div>
             </div>
           </nav>
         </nav>
-        <header class="page-header" style={{}}>
-        <div class="inner">
-  	<div class="container">
-  		<h1>CAREERS</h1>
-  		<p>Send us your CV to be considered for future job opportunities</p>
-  	</div>
-  	
+
+
+        <header>
+
+  <div
+    class="p-5 text-center bg-image"
+    style={{
+     backgroundImage: 'url("https://mdbcdn.b-cdn.net/img/new/slides/041.webp")',
+      height: '400px'
+    }}
+  >
+    <div class="mask" style={{backgroundColor: 'rgba(0, 0, 0, 0.6)'}}>
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white">
+          <h1 class="mb-3">Careers</h1>
+          <h4 class="mb-3">Send us your CV to be considered for future opportunities</h4>
+          
+        </div>
+      </div>
+    </div>
   </div>
-  </header>
+
+</header>
+
+
+
+
   <section class="contact" style={{left: '-90px', top: '80px'}}>
     <div class="container">
     	<div class="row">

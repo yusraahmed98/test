@@ -4,12 +4,12 @@ import AOS from 'aos'
 
 
 
-class Portfolio extends React.Component {
+class OurPeople extends React.Component {
   render() {
     return (
       <>
         <nav style={{backgroundColor:'#222327'}} >
-          <nav class="navbar navbar-expand-lg bg-body-tertiary"  style={{ left:'55%', width: '70%' }}>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary"  style={{ left:'55%' }}>
             <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
               <button
@@ -133,8 +133,6 @@ class Portfolio extends React.Component {
             </li>
           </ul>
         </section>
-
-
         <footer class="bg-dark text-center text-white">
           <div class="container p-4 pb-0">
             <section class="mb-4">
@@ -197,9 +195,6 @@ class Portfolio extends React.Component {
             </a>
           </div>
         </footer>
-
-
-
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/swiper.min.js"></script>
@@ -212,4 +207,4 @@ class Portfolio extends React.Component {
     );
   }
 }
-export default Portfolio;
+export default OurPeople;
